@@ -1,10 +1,9 @@
 package transformation;
 
-public class Water extends Material{
+public class Nitro extends Material{
 
-    public Water(){}
-
-    public Water(int temperature) {
+    public Nitro(){}
+    public Nitro(int temperature) {
         super(temperature);
     }
 
@@ -17,8 +16,9 @@ public class Water extends Material{
     }
     @Override
     public String toString() {
-        return "Water{" +
+        return "Nitro{" +
                 "weight=" + getTemperature() +
                 '}';
     }
+
 }

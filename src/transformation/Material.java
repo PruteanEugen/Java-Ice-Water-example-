@@ -12,7 +12,12 @@ public abstract class Material {
 
     public void setTemperature(int temperature) {
         this.temperature = temperature;
+        transform();
     }
 
+    protected abstract void transform();
 }
+
+
+
 
